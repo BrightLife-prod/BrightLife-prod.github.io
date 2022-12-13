@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>BrightLife prod. - Job application</title>
+		<link rel="stylesheet" type="text/css" href="CSS/main.css">
+		<link rel="stylesheet" type="text/css" href="CSS/application.css">
+		<link rel="icon" type="image/png" href="Media/logo.png">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="index.html" tabindex="1">
+					<img class="logo" alt="BrightLife Logo" src="Media/logo.png">
+				</a>
+				<h1 id="page-title">BrightLife prod.</h1>
+			</div>
+			<div class="container">
+				<div class="dropdown" tabindex="2">
+					<div class="button" title="American English">Switch language <img src="Media/flag-en-US.png"></div>
+					<div class="menu">
+						<p>Sorry, we only support American English yet :(</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container layout-left" style="background-image: linear-gradient(60deg, #fffae3 20%, transparent 60%), url('Media/bg-legal.jpg');">
+				<div class="content-banner">
+					We have been waiting for you!
+				</div>
+			</div>
+			<div class="container layout-img smooth-background">
+				<div class="content-box">
+					<h1>Let us introduce ourselves...</h1>
+					<p class="justified">
+						We are a company of the people, by the people, for the people. That is why we are always happy to be able to welcome new members
+						which share our interest in working for a better, more sustainable and more affordable future in regards of energy. So, get your
+						pencil (or keyboard) ready and write us the good ol&apos; letter...
+					</p>
+				</div>
+				<a class="wrap-img" href="#application">
+					<img class="smooth-img" src="Media/img-application.jpg">
+				</a>
+			</div>
+			<div id="application" class="container layout-box smooth-background">
+				<div class="content-box">
+					<h2>Digital job application</h2>
+					<hr>
+					<form action="submit_application.html" method="post">
+						<label for="name" required>Name:</label>
+						<input type="text" name="name" required>
+						<label for="addr">Address:</label>
+						<input type="text" name="addr">
+						<label for="tel">Phone:</label>
+						<input type="tel" name="tel">
+						<label for="email" required>Email:</label>
+						<input type="email" name="email" required>
+						<label for="doc" required>Document:</label>
+						<input type="file" name="doc" accept="application/pdf" required>
+						<input class="button" type="submit" value="Submit application!">
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="links">
+				<div class="container">
+					<h3>Links:</h3>
+					<a href="index.html">Home</a>
+					<a href="starting.html">Getting started</a>
+					<a href="solutions.html">Our current solutions</a>
+					<a href="future.html">Future products</a>
+					<a href="support.html">Customer support</a>
+					<a href="faq.html">FAQ</a>
+					<a href="about.html">About us</a>
+				</div>
+				<div class="container">
+					<h3>Contact:</h3>
+					<a href="mailto:BrightLife.prod@gmail.com">E-mail</a>
+				</div>
+				<div class="container">
+					<h3>Follow us:</h3>
+					<a href="https://instagram.com/brightlife.prod/"><img src="Media/ico-insta.webp">Instagram</a>
+				</div>
+			</div>
+			<div class="copyright">Copyright &copy; 2022 BrightLife prod.</div>
+		</footer>
+		<script src="JavaScript/slides.js"></script>
+	</body>
+</html>
